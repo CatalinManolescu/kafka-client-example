@@ -26,7 +26,7 @@ kafka:
   consumer-pool-timeout: 5s
   consumer-subscription-timeout: 10s
   consumer-unique-id: true
-  consumer-group: kafka-failover-demo
+  consumer-group: kafka-demo
   properties:
     enable:
       auto:
@@ -35,6 +35,7 @@ kafka:
       commit:
         interval:
           ms: 1000
+
 #      offset:
 #        reset: earliest
 #    consumer:
@@ -44,3 +45,4 @@ kafka:
 #    request:
 #      timeout:
 #        ms: 3000
+
